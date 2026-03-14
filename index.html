@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Smalcopedia — wolna encyklopedia</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="#" aria-label="Smalcopedia">
+        <!-- Simple SVG logo to avoid trademark issues -->
+        <svg width="36" height="36" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="100" height="100" rx="12" fill="#3366cc"></rect>
+          <text x="50%" y="58%" font-family="Georgia, serif" font-size="48" fill="#fff" text-anchor="middle">S</text>
+        </svg>
+        <span class="site-title">Smalcopedia</span>
+      </a>
+      <form id="searchForm" class="search-form" onsubmit="return false;">
+        <input id="searchInput" type="search" placeholder="Szukaj w Smalcopedii" aria-label="Szukaj">
+      </form>
+    </div>
+  </header>
+
+  <div class="page-wrap">
+    <aside class="sidebar">
+      <nav>
+        <ul>
+          <li><a href="#">Strona główna</a></li>
+          <li><a href="#">O Smalcopedii</a></li>
+          <li><a href="#">Losowy artykuł</a></li>
+          <li><a href="#">Kontakt</a></li>
+        </ul>
+      </nav>
+      <section class="portals">
+        <h3>Portale</h3>
+        <ul>
+          <li><a href="#">Nauka</a></li>
+          <li><a href="#">Historia</a></li>
+          <li><a href="#">Kultura</a></li>
+        </ul>
+      </section>
+    </aside>
+
+    <main class="content">
+      <article class="article" id="article-main">
+        <h1>Smalcopedia — przykładowy artykuł</h1>
+        <div class="meta">Zaktualizowano: 14 marca 2026</div>
+        <nav class="toc" aria-label="Spis treści">
+          <strong>Spis treści</strong>
+          <ol>
+            <li><a href="#sekcja-1">1. O projekcie</a></li>
+            <li><a href="#sekcja-2">2. Zasady</a></li>
+            <li><a href="#sekcja-3">3. Rozwój</a></li>
+          </ol>
+        </nav>
+
+        <section id="sekcja-1">
+          <h2>O projekcie</h2>
+          <p>Smalcopedia to strona która opowiada o historiach głównego bohatera smalca i jego dziwnych przygodach.</p>
+        </section>
+
+        <section id="sekcja-2">
+          <h2>Zasady</h2>
+          <p>Ten szablon nie kopiuje oryginalnych materiałów chronionych prawem autorskim ani znaków towarowych Wikipedii. Treści przykładowe są oryginalne i mogą być edytowane według potrzeb.</p>
+        </section>
+
+        <section id="sekcja-3">
+          <h2>Rozwój</h2>
+          <p>Możesz rozbudować Smalcopedię poprzez dodanie backendu (np. MediaWiki, Strapi + frontend), mechanizmu edycji, historii wersji i pełnotekstowej wyszukiwarki.</p>
+        </section>
+
+        <hr>
+        <p class="references"><strong>Przykładowe artykuły:</strong></p>
+        <ul id="articleList" class="article-list">
+          <li><a href="#">Smalcologia</a></li>
+          <li><a href="#">Historia smalców</a></li>
+          <li><a href="#">Kategorie i tagi</a></li>
+          <li><a href="#">Jak dodać artykuł</a></li>
+          <li><a href="dropsie.html">Drops - pies bohater</a></li>
+        </ul>
+      </article>
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <small>Treści demonstracyjne — Smalcopedia. Nie jest to strona Wikipedii.</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
