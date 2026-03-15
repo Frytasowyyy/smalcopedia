@@ -52,6 +52,11 @@ const articles = [
     url: "bojler.html",
     description: "Bojler to urządzenie grzewcze, które odgrywa ważną rolę w życiu Sylwka."
   },
+  {
+    title: "Kuzyn",
+    url: "kuzyn.html",
+    description: "Kuzyn maksa to popularna postać w mediach społecznościowych na platformie tiktok."
+  },
 ];
 
 // Zachowujemy kompatybilność wsteczną dla starszych skryptów (np. losowego artykułu)
