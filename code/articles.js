@@ -30,8 +30,13 @@ const articles = [
   {
     title: "Egipt",
     url: "egipt.html",
-    description: "Egipt to przyszła destynacja Sylwka."
-  }
+    description: "Egipt to przyszła destynacja Sylwka.",
+  },
+  {
+    title: "Telefon Smalca",
+    url: "telefonsmalca.html",
+    description: "Telefon Smalca urzadzenie bez uzyteczne.",
+  },
 ];
 
 // Zachowujemy kompatybilność wsteczną dla starszych skryptów (np. losowego artykułu)
