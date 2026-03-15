@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Sylwek - Smalcopedia</title>
+    <link rel="stylesheet" href="../styles/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="logo" href="../index.html" aria-label="Smalcopedia">
+          <svg
+            width="36"
+            height="36"
+            viewBox="0 0 100 100"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <rect width="100" height="100" rx="12" fill="#3366cc"></rect>
+            <text
+              x="50%"
+              y="58%"
+              font-family="Georgia, serif"
+              font-size="48"
+              fill="#fff"
+              text-anchor="middle"
+            >
+              S
+            </text>
+          </svg>
+          <span class="site-title">Smalcopedia</span>
+        </a>
+      </div>
+    </header>
+
+    <div class="page-wrap">
+      <aside class="sidebar">
+        <nav>
+          <ul>
+            <li><a href="../index.html">Strona główna</a></li>
+            <li><a href="#">O Smalcopedii</a></li>
+            <li><a href="#" id="randomArticle">Losowy artykuł</a></li>
+          </ul>
+        </nav>
+      </aside>
+
+      <main class="content">
+        <!-- Infobox follows the content and floats to the right -->
+        <aside class="infobox">
+          <div class="infobox-title">Sylwek</div>
+          <div class="infobox-image">
+            <img
+              src="https://scontent.fktw1-1.fna.fbcdn.net/v/t39.30808-6/462063764_2887637454721311_5002279733237808026_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=Mm36UihihjgQ7kNvwHq0Iim&_nc_oc=AdlXomf1nq-KABRD26jl-i5w8Uzn8_DQAfTja0BQCfiu1eQFRJmU_X3dGBKMunB2dRU&_nc_zt=23&_nc_ht=scontent.fktw1-1.fna&_nc_gid=DDROry4mchCI3hi4I1ZcYA&_nc_ss=8&oh=00_AfxDq2F3zLyTcx6ZdPbcqIDKOOznb6znRrNUzS0sNmvgAQ&oe=69BBED94"
+              alt="Sylwek"
+            />
+            <div class="infobox-caption">Sylwek - ojciec smalca</div>
+          </div>
+          <table class="infobox-table">
+            <tr>
+              <th>Praca</th>
+              <td>Zbiory truskawek w moniachium</td>
+            </tr>
+            <tr>
+              <th>Żona</th>
+              <td>Monika</td>
+            </tr>
+            <tr>
+              <th>Dziecko</th>
+              <td>Smalec</td>
+            </tr>
+          </table>
+        </aside>
+
+        <!-- Markdown content will be loaded here -->
+        <article class="article" data-markdown="../artykuly/sylwek.md">
+          <p>Ładowanie treści...</p>
+        </article>
+      </main>
+    </div>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <small>Treści demonstracyjne — Smalcopedia.</small>
+      </div>
+    </footer>
+    <script src="../code/articles.js"></script>
+    <script src="../code/script.js"></script>
+    <script src="../code/markdown.js"></script>
+  </body>
+</html>

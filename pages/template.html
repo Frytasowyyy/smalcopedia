@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Szablon Artykułu — Smalcopedia</title>
+    <link rel="stylesheet" href="../styles/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="logo" href="../index.html" aria-label="Smalcopedia">
+          <svg
+            width="36"
+            height="36"
+            viewBox="0 0 100 100"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <rect width="100" height="100" rx="12" fill="#3366cc"></rect>
+            <text
+              x="50%"
+              y="58%"
+              font-family="Georgia, serif"
+              font-size="48"
+              fill="#fff"
+              text-anchor="middle"
+            >
+              S
+            </text>
+          </svg>
+          <span class="site-title">Smalcopedia</span>
+        </a>
+      </div>
+    </header>
+
+    <div class="page-wrap">
+      <aside class="sidebar">
+        <nav>
+          <ul>
+            <li><a href="../index.html">Strona główna</a></li>
+            <li><a href="#">O Smalcopedii</a></li>
+            <li><a href="#" id="randomArticle">Losowy artykuł</a></li>
+          </ul>
+        </nav>
+      </aside>
+
+      <main class="content">
+        <!-- Infobox follows the content and floats to the right -->
+        <aside class="infobox">
+          <div class="infobox-title">Nazwa Tematu</div>
+          <div class="infobox-image">
+            <img src="https://via.placeholder.com/250x180" alt="Opis zdjęcia" />
+            <div class="infobox-caption">Podpis pod zdjęciem</div>
+          </div>
+          <table class="infobox-table">
+            <tr>
+              <th>Atrybut 1</th>
+              <td>Wartość 1</td>
+            </tr>
+            <tr>
+              <th>Atrybut 2</th>
+              <td>Wartość 2</td>
+            </tr>
+            <tr>
+              <th>Atrybut 3</th>
+              <td>Wartość 3</td>
+            </tr>
+          </table>
+        </aside>
+
+        <!-- Markdown content will be loaded here -->
+        <article class="article" data-markdown="../artykuly/nazwa-pliku.md">
+          <p>Ładowanie treści...</p>
+        </article>
+      </main>
+    </div>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <small>Treści demonstracyjne — Smalcopedia.</small>
+      </div>
+    </footer>
+    <script src="../code/articles.js"></script>
+    <script src="../code/script.js"></script>
+    <script src="../code/markdown.js"></script>
+  </body>
+</html>
