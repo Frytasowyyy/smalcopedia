@@ -37,6 +37,11 @@ const articles = [
     url: "telefonsmalca.html",
     description: "Telefon Smalca urzadzenie bez uzyteczne.",
   },
+  {
+    title: "Smalec",
+    url: "smalec.html",
+    description: "Postać kluczowa w historii smalców, znana z wielu przygód."
+  }
 ];
 
 // Zachowujemy kompatybilność wsteczną dla starszych skryptów (np. losowego artykułu)

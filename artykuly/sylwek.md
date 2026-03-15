@@ -31,6 +31,6 @@ Sylwek 17 dnia Lipca 2015 roku, wstawił swoje zdjęcie wraz Synem Smalcem na po
 
 ## Zobacz też
 
-- <li><a href="#">Smalec (Naczelny grubas)</a></li>
+- <li><a href="smalec.html">Smalec (Naczelny grubas)</a></li>
 - <li><a href="drops.html">Drops</a></li>
 - <li><a href="#">Rozjebany bojler</a></li>
