@@ -5,12 +5,8 @@ document.addEventListener('DOMContentLoaded', function(){
   if (randomBtn) {
     randomBtn.addEventListener('click', function(e) {
       e.preventDefault();
-      // Lista wszystkich artykułów (pliki .html poza index i template)
-      const articles = [
-        'dropsie.html',
-        'sylwek.html'
-      ];
-      const random = articles[Math.floor(Math.random() * articles.length)];
+      // Pobiera listę z articles.js
+      const random = articleList[Math.floor(Math.random() * articleList.length)];
       if (random) {
         window.location.href = random;
       }

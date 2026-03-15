@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Smalcopedia — wolna encyklopedia</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="statistics.css">
 </head>
 <body>
   <header class="site-header">
@@ -53,6 +54,7 @@
             <li><a href="#sekcja-1">1. O projekcie</a></li>
             <li><a href="#sekcja-2">2. Zasady</a></li>
             <li><a href="#sekcja-3">3. Rozwój</a></li>
+            <li><a href="#statystyki-projektu">4. Statystyki projektu</a></li>
           </ol>
         </nav>
 
@@ -69,6 +71,32 @@
         <section id="sekcja-3">
           <h2>Rozwój</h2>
           <p>Możesz rozbudować Smalcopedię poprzez dodanie backendu (np. MediaWiki, Strapi + frontend), mechanizmu edycji, historii wersji i pełnotekstowej wyszukiwarki.</p>
+        </section>
+
+        <section id="statystyki-projektu">
+          <h2>Statystyki projektu</h2>
+          <div class="stats-container">
+            <table class="stats-table">
+              <tbody>
+                <tr>
+                  <th>Liczba artykułów</th>
+                  <td id="articleCount" class="stats-value">...</td>
+                </tr>
+                <tr>
+                  <th>Ostatni update</th>
+                  <td id="lastUpdate" class="stats-value">Pobieranie...</td>
+                </tr>
+                <tr>
+                  <th>Repozytorium</th>
+                  <td><a href="https://github.com/Frytasowyyy/smalcopedia" target="_blank">Frytasowyyy/smalcopedia</a></td>
+                </tr>
+                <tr>
+                  <th>Status aktywności</th>
+                  <td><span class="stats-status">Online</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </section>
 
         <hr>
@@ -91,6 +119,8 @@
     </div>
   </footer>
 
+  <script src="articles.js"></script>
   <script src="script.js"></script>
+  <script src="statistics.js"></script>
 </body>
 </html>

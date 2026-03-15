@@ -1,0 +1,54 @@
+/* Styl dla tabeli statystyk projektu */
+.stats-container {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #fdfdfd;
+    border: 1px solid #c8ccd1;
+    border-radius: 2px;
+}
+
+.stats-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95em;
+    margin-top: 10px;
+}
+
+.stats-table caption {
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding-bottom: 8px;
+    color: #333;
+}
+
+.stats-table th, .stats-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #eaecf0;
+}
+
+.stats-table th {
+    background-color: #f8f9fa;
+    color: #54595d;
+    font-weight: 600;
+    width: 40%;
+}
+
+.stats-table tr:hover {
+    background-color: #f2f5f7;
+}
+
+.stats-value {
+    font-weight: bold;
+    color: #3366cc;
+}
+
+.stats-status {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.85em;
+    background-color: #e2f2e2;
+    color: #006600;
+}
