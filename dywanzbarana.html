@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Szablon Artykułu — Smalcopedia</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="index.html" aria-label="Smalcopedia">
+        <svg width="36" height="36" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="100" height="100" rx="12" fill="#3366cc"></rect>
+          <text x="50%" y="58%" font-family="Georgia, serif" font-size="48" fill="#fff" text-anchor="middle">S</text>
+        </svg>
+        <span class="site-title">Smalcopedia</span>
+      </a>
+    </div>
+  </header>
+
+  <div class="page-wrap">
+    <aside class="sidebar">
+      <nav>
+        <ul>
+          <li><a href="index.html">Strona główna</a></li>
+          <li><a href="#">O Smalcopedii</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="content">
+      <!-- Infobox follows the content and floats to the right -->
+      <aside class="infobox">
+          <div class="infobox-title">Dywan z Barana</div>
+          <div class="infobox-image">
+            <img src="https://skoryjanosik.pl/environment/cache/images/productGfx_668_720_720/dywan-ze-skor-owczych.webp" alt="Dywan z barana">
+            <div class="infobox-caption">Dywan z barana oraz kapcie matki smalca</div>
+          </div>
+          <table class="infobox-table">
+          <tr>
+            <th>Materiał</th>
+            <td>Wełna</td>
+          </tr>
+          <tr>
+            <th>Zwierze</th>
+            <td>Święty Baran</td>
+          </tr>
+          <tr>
+            <th>Kraj pochodzenia</th>
+            <td>Imperium osmańskie</td>
+          </tr>
+      </table>
+    </aside>
+
+      <!-- Markdown content will be loaded here -->
+      <article class="article" data-markdown="artykuly/dywanzbarana.md">
+        <p>Ładowanie treści...</p>
+      </article>
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <small>Treści demonstracyjne — Smalcopedia.</small>
+    </div>
+  </footer>
+  <script src="markdown.js"></script>
+</body>
+</html>
