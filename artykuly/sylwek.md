@@ -25,9 +25,6 @@ Sylwek jest ojcem Smalca oraz właścicielem psa rasy kundel o imieniu Drops. Pi
 
 ## Zobacz też
 
-- Smalec (syn)
-- Drops (pies)
-
-## Przypisy
-
-<li><a href="#">Rozjebany bojler</a></li>
+- <li><a href="#">Smalec (Naczelny grubas)</a></li>
+- <li><a href="drops.html">Drops</a></li>
+- <li><a href="#">Rozjebany bojler</a></li>
