@@ -1,0 +1,7 @@
+# Bojler 
+
+## Problemy bojlerowe
+Bojler jednego dnia zaczął przeciekać przez co <a href="sylwek.html">Sylwek</a> musiał wziąść wolne żeby go naprawić ,niestety <a href="sylwek.html">Sylwek</a> nie miał doświadczenia z naprawianiem takich rzeczy i po tym jak poszedł do pracy po naprawie bojler się rozjebał. <a href="smalec.html">Smalec</a> podczas tego zdarzenia był w domu i grał w Dead by Daylight i nie słyszał pukania sąsiada któremu zalało dom. Przez tą sytuacje <a href="smalec.html">Smalecowi </a> zabrali <a href="telefonsmalca.html">telefon</a>.
+
+## Rola bojlera w życiu rodziny Smalca
+Bojler odgrywa niezwykle ważną rolę w życiu rodziny Smalca, będąc nie tylko źródłem ciepła dla domu, ale także kluczowym urządzeniem do podgrzewania różnorodnych posiłków. Głównie służy do ogrzewania resztek z KFC, takich jak nuggetsy, frytki, skrzydełka czy inne fast foody np. łajno , które Smalec regularnie przynosi do domu po swoich eskapadach. Bez bojlera rodzina nie mogłaby cieszyć się ciepłym jedzeniem, co jest niezbędne w ich codziennym życiu pełnym lenistwa i niezdrowych nawyków żywieniowych. Dodatkowo, bojler pomaga w utrzymaniu komfortowej temperatury podczas długich sesji grania w gry komputerowe, zapewniając, że Smalec nie marznie podczas swoich przygód.
