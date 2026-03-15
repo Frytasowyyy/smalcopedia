@@ -33,15 +33,15 @@ const articles = [
     description: "Egipt to przyszła destynacja Sylwka.",
   },
   {
+    title: "Imperium Osmańskie",
+    url: "imperiumosmanskie.html",
+    description: "Imperium Osmańskie to jedno z ulubionych miejsce wakacji Sylwka i Moniki.",
+  },
+  {
     title: "Telefon Smalca",
     url: "telefonsmalca.html",
     description: "Telefon Smalca urzadzenie bez uzyteczne.",
   },
-  {
-    title: "Smalec",
-    url: "smalec.html",
-    description: "Postać kluczowa w historii smalców, znana z wielu przygód."
-  }
 ];
 
 // Zachowujemy kompatybilność wsteczną dla starszych skryptów (np. losowego artykułu)
