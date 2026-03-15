@@ -26,6 +26,11 @@ const articles = [
     title: "Historia smalców",
     url: "#",
     description: "Kronika dziejów rodu smalców od czasów najdawniejszych."
+  },
+  {
+    title: "Egipt",
+    url: "egipt.html",
+    description: "Egipt to przyszła destynacja Sylwka."
   }
 ];
 

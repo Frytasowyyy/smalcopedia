@@ -87,6 +87,36 @@ a:hover{text-decoration:underline}
 .section h2{font-size:20px}
 .article-list{padding-left:16px}
 
+blockquote {
+  margin: 20px 0;
+  padding: 15px 25px;
+  background-color: #f0f4f8;
+  border-left: 5px solid var(--accent);
+  border-radius: 0 8px 8px 0;
+  font-style: italic;
+  color: #444;
+  position: relative;
+  line-height: 1.6;
+  display: flow-root; /* Creates BFC to respect floated infobox without clipping */
+  margin-right: 20px; /* Extra breathing room from the right (infobox side) */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+blockquote:hover {
+  transform: translateX(5px);
+  box-shadow: -2px 5px 15px rgba(0,0,0,0.05);
+}
+
+blockquote::before {
+  content: "“";
+  font-family: Georgia, serif;
+  font-size: 60px;
+  color: rgba(51, 102, 204, 0.1);
+  position: absolute;
+  top: -10px;
+  left: 10px;
+}
+
 .site-footer{margin:24px 0 40px}
 .footer-inner{max-width:1100px;margin:0 auto;padding:0 16px;color:#666}
 
