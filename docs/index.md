@@ -9,4 +9,5 @@ Witaj w dokumentacji projektu Smalcopedia.
 
 ## Dodatkowe informacje
 
-Jeśli potrzebujesz więcej dokumentacji, zgłoś issue na GitHub.
+- **Wyszukiwarka**: Projekt posiada wbudowaną wyszukiwarkę działającą w oparciu o dane z `code/search-engine.js`. 
+- Jeśli potrzebujesz więcej dokumentacji lub masz pomysł na nową funkcję, zgłoś issue na GitHub.

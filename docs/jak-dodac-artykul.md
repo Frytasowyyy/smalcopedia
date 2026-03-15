@@ -33,16 +33,20 @@ Treść sekcji...
 ## Krok 3: Dodaj do listy artykułów
 
 1. Otwórz plik `code/articles.js`.
-2. Dodaj nazwę pliku HTML do tablicy `articleList`:
+2. Dodaj nowy obiekt do tablicy `articles`. Każdy artykuł powinien zawierać tytuł, URL oraz krótki opis, który pozwoli wyszukiwarce na lepsze działanie:
 
 ```javascript
-const articleList = [
-  "dropsie.html",
-  "sylwek.html",
-  "dywanzbarana.html",
-  "nazwa-artykulu.html", // Dodaj tutaj
+const articles = [
+  // ... istniejące artykuły ...
+  {
+    title: "Tytuł Twojego Artykułu",
+    url: "nazwa-artykulu.html",
+    description: "Krótki opis treści, który pojawi się w wynikach wyszukiwania."
+  }
 ];
 ```
+
+*Ważne: Opis powinien być zwięzły i zawierać słowa kluczowe, po których użytkownicy mogą szukać Twojego artykułu.*
 
 ## Krok 4: Dodaj zdjęcia (opcjonalnie)
 

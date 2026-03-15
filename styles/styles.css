@@ -12,8 +12,66 @@ a:hover{text-decoration:underline}
 .header-inner{max-width:1100px;margin:0 auto;display:flex;align-items:center;gap:16px;padding:10px 16px}
 .logo{display:flex;align-items:center;gap:10px;color:var(--accent);font-weight:700}
 .site-title{font-family:Georgia, 'Times New Roman', Times, serif;font-size:20px}
-.search-form{margin-left:auto}
+.search-form{margin-left:auto;position:relative}
 #searchInput{padding:8px 10px;border:1px solid #cfcfcf;border-radius:4px;width:260px}
+
+/* Search Results Dropdown */
+.search-results-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 320px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  margin-top: 8px;
+  display: none;
+  z-index: 1000;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.search-results-dropdown.active {
+  display: block;
+}
+
+.search-item {
+  padding: 10px 15px;
+  border-bottom: 1px solid #f0f0f0;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.search-item:last-child {
+  border-bottom: none;
+}
+
+.search-item:hover {
+  background: #f5f8ff;
+}
+
+.search-item-title {
+  font-weight: 700;
+  color: var(--accent);
+  font-size: 14px;
+}
+
+.search-item-desc {
+  font-size: 12px;
+  color: #666;
+  margin-top: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.no-results {
+  padding: 15px;
+  text-align: center;
+  color: #999;
+  font-size: 14px;
+}
 
 .page-wrap{max-width:1100px;margin:20px auto;display:grid;grid-template-columns:220px 1fr;gap:24px;padding:0 16px}
 .sidebar{background:transparent}
