@@ -47,6 +47,11 @@ const articles = [
     url: "smalec.html",
     description: "Postać kluczowa w historii smalców, znana z wielu przygód."
   },
+  {
+    title: "Bojler",
+    url: "bojler.html",
+    description: "Bojler to urządzenie grzewcze, które odgrywa ważną rolę w życiu Sylwka."
+  },
 ];
 
 // Zachowujemy kompatybilność wsteczną dla starszych skryptów (np. losowego artykułu)
